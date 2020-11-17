@@ -1,12 +1,424 @@
-<!DOCTYPE HTML >
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-123
-<title>Первая HTML страница</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Leo Shop</title>
 </head>
 <body>
+    <header class="header">
+        <div class="header__top">
+        <div class="choice__block">
+            <p class="choice_language__title">Language:</p>
+                <div class="choice__language">
+                    <select class="choice__in-drop">
+                    <option>English</option>
+                    <option>Українська</option>
+                    <option>Русский</option>
+                    </select>
+                </div>
+                <div class="choice__currency">
+                    <p class="choice_currency__title"> Currency:</p>
+                    <select class="choice__in-money" >
+                    <option>USD</option>
+                    <option>UAH</option>
+                    <option>RUR</option>
+                    </select>               
+                </div>
+                <nav class="header_top__nav">
+                <ul class="header_top__menu">
+                    <li class="header_top__item"><a class="header_top__link" href="#">Account</a></li>
+                    <li class="header_top__item"><a class="header_top__link" href="#">Wishlist</a></li>
+                    <li class="header_top__item"><a class="header_top__link" href="#">Checkout</a></li>
+                    <li class="header_top__item"><a class="header_top__link" href="#">Log in</a></li>
+                    <li class="header_top__item"><a class="header_top__link" href="#">Sign up</a></li>
+                </ul>
+                </nav>
+        </div>
+        </div>
+    </header>        
+        <nav class="header__nav">
+            <img src="img/logo.png" alt="logo">
+        <ul class="header__menu">
+            <li class="header__item"><a class="header__link" href="#">Home</a></li>
+            <li class="header__item"><a class="header__link" href="#">Women</a></li>
+            <li class="header__item"><a class="header__link" href="#">Men</a></li>
+            <li class="header__item"><a class="header__link" href="#">Other</a></li>
+            <li class="header__item"><a class="header__link" href="#">Purchase</a></li>
+        </ul>
+        <div class="header__search">
+            <input type="text" class="header_search__input" />
+            <img class="header__search-img" src="img/search.png" alt="search" />
+        </div>
+        <div class="cart__nav">
+            <img class="cart__icon" src="img/cart-1.png" alt="img"/>
+            <img class="cart__icon" src="img/cart-2.png" alt="img"/>
+        </div>
+        <div class="quantity__nav">
+            <p>CART</p>
+            <span class="quantity__cart">(0)</span>
 
+        </div>
+        </nav>
 
+<div class="carousel">
+      <div class='carousel-section'>
+        <div class="carousel">
+        <div class="carousel__item">
+          <h2 class="carousel__item-title">
+            ALUMINUM CLUB
+          </h2>
+          <div class="carousel__item-text">
+          <p>Experience Ray-Ban</p>
+          </div>
+        </div>
+        </div>
+      </div>
+</div>   
+<main>
+        <section class="products">
+            <h2 class="catalog__main">
+              <span class="catalog__text">Futured products</span>
+            </h2>
+          <div class=grid>
+            <div class="catalog__product grid__item1">
+                <img class="catalog__img" src="img/slide14.png" alt="img"/>
+                <p class="main catalog__main_margin">Lorem lpsum is simply.</p>
+                  <div class="products-info">
+                    <div class="corner-ribbon corner-right">
+                      <span>new</span>
+                    </div>
+                  </div>
+                    <div class="catalog__price">
+                    <span class="catalog__price-text">$380</span>
+                    <img class="catalog__price-img" src="img/cart.png" />
+                    </div>
+                    <div class="icon">
+                    </div>
+              </div>
+
+            <div class="catalog__product grid__item2">
+                  <img class="catalog__img" src="img/slide15.png" />
+                  <p class="main catalog__main_margin">Nullam vestibulum</p>
+                      <div class="catalog__price">
+                      <span class="catalog__price-text">$90</span>
+                      <img class="catalog__price-img" src="img/cart.png" />
+                      </div>
+            </div>
+
+            <div class="catalog__product grid__item3">
+                  <img class="catalog__img" src="img/slide16.png" />
+                  <p class="main catalog__main_margin">Lorem lpsum is simply.</p>
+                  <div class="products-info">
+                    <div class="corner-ribbon corner-left">
+                      <span>sell</span>
+                    </div>
+                  </div>
+                      <div class="catalog__price">
+                      <span class="catalog__price-text"><del>$460</del>$300</span>
+                      <img class="catalog__price-img" src="img/cart.png" />
+                      </div>
+                      <div class="icon">
+                      </div>
+              </div>
+              <div class="catalog__featured-glass grid__item4">
+                <p>Featured<br>
+                  glass</p>
+                <img src='img/woman.jpg' alt='img'>
+                <button>Check in Out</button>
+              </div>
+              <div class="catalog__product grid_item5">
+                  <img class="catalog__img" src="img/slide17.png" />
+                  <p class="main catalog__main_margin">Curabitur pretium dui.</p>
+                      <div class="catalog__price">
+                      <span class="catalog__price-text">$180</span>
+                      <img class="catalog__price-img" src="img/cart.png" />
+                      </div>
+              </div>
+              <div class="catalog__product grid__item6">
+                  <img class="catalog__img" src="img/slide18.png" />
+                  <p class="main catalog__main_margin">Lorem lpsum is simply.</p>
+                  <div class="products-info">
+                    <div class="corner-ribbon corner-right">
+                      <span>new</span>
+                    </div>
+                  </div>
+                      <div class="catalog__price">
+                      <span class="catalog__price-text">$278</span>
+                      <img class="catalog__price-img" src="img/cart.png" />
+                      </div>
+                      <div class="icon">
+                      </div>
+              </div>
+              <div class="catalog__product grid__item7">
+                  <img class="catalog__img" src="img/slide19.png" />
+                  <p class="main catalog__main_margin">Sed tempus tellus/</p>
+                      <div class="catalog__price">
+                      <span class="catalog__price-text">$378</span>
+                      <img class="catalog__price-img" src="img/cart.png" />
+                      </div>
+              </div>
+              <div class="catalog__product grid__item8">
+                  <img class="catalog__img" src="img/slide20.png" />
+                  <p class="main catalog__main_margin">Lorem lpsum is simply.</p>
+                  <div class="products-info">
+                    <div class="corner-ribbon corner-right">
+                      <span>new</span>
+                    </div>
+                  </div>
+                      <div class="catalog__price">
+                      <span class="catalog__price-text">$500</span>
+                      <img class="catalog__price-img" src="img/cart.png" />
+                      </div>
+                      <div class="icon">
+                      </div>
+              </div>
+              <div class="catalog__product grid__item9">
+                  <img class="catalog__img" src="img/slide21.png" />
+                  <p class="main catalog__main_margin">Etiam egestas velit.</p>
+                  <div class="products-info">
+                    <div class="corner-ribbon corner-right">
+                      <span>new</span>
+                    </div>
+                  </div>
+                      <div class="catalog__price">
+                      <span class="catalog__price-text"><del>$460</del>$200</span>
+                      <img class="catalog__price-img" src="img/cart.png" />
+                      </div>
+                      <div class="icon">
+                      </div>
+              </div>
+              <div class="catalog__product grid__item10">
+                  <img class="catalog__img" src="img/slide22.png" />
+                  <p class="main catalog__main_margin">Mauris viverra magna</p>
+                  <div class="products-info">
+                    <div class="corner-ribbon corner-right">
+                      <span>new</span>
+                     </div>
+                  </div>
+                      <div class="catalog__price ">
+                      <span class="catalog__price-text">$370</span>
+                      <img class="catalog__price-img" src="img/cart.png" />
+                      </div>
+                      <div class="icon">
+                      </div>
+              </div>
+              <div class="catalog__singup grid__item11">
+                <h4>newsletters signup</h4>
+                <p>Lorem ipsum dolor sit amen, dolor imun ra adlip ulissys.Lorem ipsum dolor sit amen, dolor imun ra adlip
+                  ulissys.</p>
+                <form>
+                  <input type="text" placeholder=" ">
+                  <button>Subscribe</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class=products>
+            <h2 class="catalog_pick__main">
+                <span class="catalog__pick">STAFF PICK</span>
+            </h2>
+            <div class="grid1">
+              <div class="catalog__product grid1__item12">
+                  <img class="catalog__img" src="img/slide25.png" />
+                  <p class="main catalog__main_margin">Mauris viverra magna</p>
+                      <div class="catalog__price">
+                      <span class="catalog__price-text">$378</span>
+                      <img class="catalog__price-img" src="img/cart.png" />
+                      </div>
+                      <div class="icon">
+                      </div>
+              </div>
+              <div class="catalog__product grid1__item13">
+                  <img class="catalog__img" src="img/slide24.png" />
+                  <p class="main catalog__main_margin">Mauris viverra magna</p>
+                      <div class="catalog__price">
+                      <span class="catalog__price-text">$278</span>
+                      <img class="catalog__price-img" src="img/cart.png" />
+                      </div>
+              </div>
+              <div class="catalog__product grid1__item14">
+                  <img class="catalog__img" src="img/slide23.png" />
+                  <p class="main catalog__main_margin">Curabitur pretium dui.</p>
+                      <div class="catalog__price">
+                      <span class="catalog__price-text">$370</span>
+                      <img class="catalog__price-img" src="img/cart.png" />
+                      </div>
+                      <div class="icon">
+                      </div>
+              </div>
+        </div>
+      </section>
+      <section class="products">
+            <h2 class="catalog_new__main">
+                <span class="catalog__new">NEW PRODUCTS</span>
+            </h2>
+            <div class="grid2">
+              <div class="catalog__product grid2__item15">
+                      <img class="catalog__img" src="img/slide28.png" />
+                      <p class="main catalog__main_margin">Sed tempus tellus.</p>
+                          <div class="catalog__price">
+                          <span class="catalog__price-text">$90</span>
+                          <img class="catalog__price-img" src="img/cart.png" />
+                          </div>
+                          <div class="icon">
+                          </div>
+              </div>
+              <div class="catalog__product grid2__item16">
+                      <img class="catalog__img" src="img/slide26.png" />
+                      <p class="main catalog__main_margin">Nulla accumsan lect.</p>
+                           <div class="catalog__price">
+                          <span class="catalog__price-text">$60</span>
+                          <img class="catalog__price-img" src="img/cart.png" />
+                          </div>
+                          <div class="icon">
+                          </div>
+              </div>
+              <div class="catalog__product grid2__item17">
+                      <img class="catalog__img" src="img/slide27.png" />
+                      <p class="main catalog__main_margin">Lorem lpsum is simply.</p>
+                          <div class="catalog__price">
+                          <span class="catalog__price-text">$378</span>
+                          <img class="catalog__price-img" src="img/cart.png" />
+                          </div>
+                          <div class="icon">
+                          </div>
+              </div>
+            </div>
+        </section>
+</main>
+  <div class='contacts'>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <ul>
+            <li class='contacts-icon'>
+              <img src='img/contact1.png' alt='img'>
+            </li>
+            <li>Free shipping on orders over $100</li>
+          </ul>
+        </div>
+        <div class="col">
+          <ul>
+            <li class='contacts-icon'>
+              <img src='img/contact2.png' alt='img'>
+            </li>
+            <li>call us! toLl free- 409-8888-0099 </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class='information'>
+
+    <div class="information-block">
+      <h5>Facebook</h5>
+      <p>20000 Members</p>
+      <img src='img/like.png' alt='img'>
+      <div class='information-icon'>
+        <ul>
+          <li>
+            <img src='img/information-icon1.png' alt='img'>
+          </li>
+          <li>
+            <img src='img/information-icon2.png' alt='img'>
+          </li>
+          <li>
+            <img src='img/information-icon3.png' alt='img'>
+          </li>
+          <li>
+            <img src='img/information-icon4.png' alt='img'>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <img src='img/information-icon5.png' alt='img'>
+          </li>
+          <li>
+            <img src='img/information-icon6.png' alt='img'>
+          </li>
+          <li>
+            <img src='img/information-icon7.png' alt='img'>
+          </li>
+          <li>
+            <img src='img/information-icon8.png' alt='img'>
+          </li>
+        </ul>
+      </div>
+      <p>facebook Social plugin</p>
+    </div>
+
+    <div class="information-block">
+      <h5>From twitter</h5>
+      <ul>
+        <li class='information-icon'><img src='img/twitter.png' alt='img'></li>
+        <li>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesettin.Lorem Ipsum is simply dummy text of the
+            printing and typesettin.</p>
+        </li>
+      </ul>
+
+      <ul>
+        <li class='information-icon'><img src='img/twitter.png' alt='img'></li>
+        <li>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesettin industry.Lorem lpsum has been.</p>
+        </li>
+      </ul>
+    </div>
+
+    <div class="information-block">
+      <h5>information</h5>
+      <ul class='gal'>
+        <li><img src='img/gal.png' alt='img'>Sed ultrices purus non.</li>
+        <li><img src='img/gal.png' alt='img'>sodales sodales.</li>
+        <li><img src='img/gal.png' alt='img'>Curabitur pretium dui vitae.</li>
+        <li><img src='img/gal.png' alt='img'>Donec gravida mi in nisl</li>
+        <li><img src='img/gal.png' alt='img'>faucibus leo condimentum.</li>
+        <li><img src='img/gal.png' alt='img'>Donec et lorem suscipit/</li>
+      </ul>
+    </div>
+
+    <div class="information-block">
+      <h5>Contact Us</h5>
+      <ul class='gal'>
+        <li>Leo Store</li>
+        <li>Leopards media</li>
+        <li>KVM Rpad, 4590GH</li>
+        <li>+1 489-8888-0099</li>
+        <li>mail@email.com</li>
+      </ul>
+      <hr>
+      <ul>
+        <li class='information-icon'><img src='img/fa-google-plus-g.png' alt='img'></li>
+        <li class='information-icon'><img src='img/fa-linkdin-in.png' alt='img'></li>
+        <li class='information-icon'><img src='img/fa-rss.png' alt='img'></li>
+        <li class='information-icon'><img src='img/fa-facebook.png' alt='img'></li>
+      </ul>
+    </div>
+  </div>
+<footer>
+  <div class='footer'>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p>© Copyright 2020 Css Author, All Rights Reserved. </p>
+        </div>
+        <div class="col">
+          <ul>
+            <li>Account</li>
+            <li>Wishlist</li>
+            <li>Checkout</li>
+            <li>LogIn</li>
+            <li>SignUp</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+  
 </body>
 </html>
