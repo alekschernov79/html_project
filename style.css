@@ -39,7 +39,6 @@ font-family: OpenSans;
 
     font-weight: 400;
 }
-}
 .header__nav,
 .header__link {
     color: #656565;
@@ -60,7 +59,6 @@ font-family: OpenSans;
 }
 .header_top__menu{
     margin-left: auto;
-}
 }
 select {
     height: 20px;
@@ -94,8 +92,6 @@ padding: 0;
     text-transform: uppercase;
     display: flex;
     align-items: center;
-}
-}
 }
 .carousel-section {
     max-width: 1400px;
@@ -178,8 +174,9 @@ padding: 0;
     text-align: center; 
 }
 .corner-left {
-    top: -10px;
-    left: -10px;
+    top: -197px;
+    left: -60px;
+    position: relative;
 }
 .corner-left::before,
 .corner-left::after {
@@ -200,8 +197,9 @@ padding: 0;
     transform: rotate(-45deg);
 }
 .corner-right {
-    top: -10px;
-    right: -10px;
+    top: -176px;
+    right: -141px;
+    position: relative;
 }
 .corner-right::before,
 .corner-right::after {
